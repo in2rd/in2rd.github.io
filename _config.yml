@@ -78,9 +78,6 @@ author:
   location: "DC Metro"
   email: "11476376+in2rd@users.noreply.github.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:11476376+in2rd@users.noreply.github.com"
     - label: "Resume"
       icon: "far fa-fw fa-file"
       url: "https://github.com/in2rd/resume"
