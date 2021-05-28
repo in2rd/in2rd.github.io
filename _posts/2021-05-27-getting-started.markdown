@@ -18,6 +18,6 @@ Never ended up getting to any of that, as most usually don't. So I figured today
 
 So - I did. Even went so far as to whip together a [VSCode Remote - Docker](https://code.visualstudio.com/docs/remote/containers) project for it and make it easy (more on that later).
 
-Anyways, if you're here and you're reading this - thanks for taking the time. I have a lot of things to say about a lot of stuff - and hopefully you mind find it interesting or useful.
+Anyways, if you're here and you're reading this - thanks for taking the time. I have a lot of things to say about a lot of stuff - and hopefully you might find it interesting or useful.
 
 :thumbsup:
