@@ -1,2 +1,5 @@
 # in2rd.github.io
-Personal GitHub Page
+
+## Development
+
+`bundle exec jekyll serve --trace --livereload`
