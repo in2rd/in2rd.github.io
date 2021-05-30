@@ -1,24 +1,13 @@
 FROM debian:buster-slim
 
+# Upgrade OS and install needed packages
 RUN apt-get update -y && apt-get upgrade -y
 RUN apt-get install -y build-essential \
-    curl \
-    bash \
-    sudo \
-    vim \
-    git \
-    wget \
-    apt-utils \
-    base \
-    zsh \
-    less \
-    lsb-release \
-    ruby \
-    locales \
-    ruby-dev \
-    zlib1g-dev \
-    software-properties-common
+    curl bash sudo vim git wget apt-utils base zsh \
+    less lsb-release ruby locales ruby-dev \
+    zlib1g-dev software-properties-common
 
+# Make sure the locale is set up correctly
 RUN dpkg-reconfigure locales && \
     locale-gen C.UTF-8 && \
     /usr/sbin/update-locale LANG=C.UTF-8
